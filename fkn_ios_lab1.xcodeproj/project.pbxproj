@@ -15,6 +15,8 @@
 		2A47A96E296375A3000D5AFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A47A96C296375A3000D5AFE /* LaunchScreen.storyboard */; };
 		2A47A979296375A4000D5AFE /* fkn_ios_lab1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47A978296375A4000D5AFE /* fkn_ios_lab1Tests.swift */; };
 		2A47A984296375A4000D5AFE /* fkn_ios_lab1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47A983296375A4000D5AFE /* fkn_ios_lab1UITests.swift */; };
+		2A47A99229637651000D5AFE /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47A99129637651000D5AFE /* CollectionViewCell.swift */; };
+		2A47A99429637683000D5AFE /* MarvelHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47A99329637683000D5AFE /* MarvelHero.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2A47A97F296375A4000D5AFE /* fkn_ios_lab1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fkn_ios_lab1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A47A983296375A4000D5AFE /* fkn_ios_lab1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fkn_ios_lab1UITests.swift; sourceTree = "<group>"; };
 		2A47A985296375A4000D5AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A47A99129637651000D5AFE /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		2A47A99329637683000D5AFE /* MarvelHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelHero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				2A47A96A296375A3000D5AFE /* Assets.xcassets */,
 				2A47A96C296375A3000D5AFE /* LaunchScreen.storyboard */,
 				2A47A96F296375A3000D5AFE /* Info.plist */,
+				2A47A99129637651000D5AFE /* CollectionViewCell.swift */,
+				2A47A99329637683000D5AFE /* MarvelHero.swift */,
 			);
 			path = fkn_ios_lab1;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				2A47A9662963759E000D5AFE /* ViewController.swift in Sources */,
 				2A47A9622963759E000D5AFE /* AppDelegate.swift in Sources */,
+				2A47A99229637651000D5AFE /* CollectionViewCell.swift in Sources */,
+				2A47A99429637683000D5AFE /* MarvelHero.swift in Sources */,
 				2A47A9642963759E000D5AFE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
